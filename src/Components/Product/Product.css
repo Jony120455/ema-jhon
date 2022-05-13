@@ -1,0 +1,30 @@
+.product{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    margin-right: 5px;
+    margin-bottom: 3px;
+}
+.img img{
+    margin-right: 10px;
+}
+.rating{
+    color: gold;
+}
+.btn-card{
+    border: none;
+    background-color: rgb(247, 222, 0);
+    padding: 7px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 2%;
+}
+@media screen and (max-width: 480px) {
+    .product {
+      width: 100%;
+      
+    }
+  }
